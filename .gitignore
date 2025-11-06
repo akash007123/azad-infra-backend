@@ -1,0 +1,88 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+.tmp/
+temp/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+log.txt
+debug.log
+error.log
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Cache
+.cache/
+.next/
+.nuxt/
+.svelte-kit/
+vite-cache/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+storybook-static/
+
+# TypeScript build
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: lock files (uncomment if you prefer ignoring them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Misc
+*.tgz
+*.zip
+*.tar.gz
+
+# Testing
+.jest/
+jest-cache/
+jest-html-reporters-*.html
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
